@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axios search (optional)</title>
+  </head>
+  <body>
+    <h1>Axios search (optional)</h1>
+    <h2>Search GitHub user</h2>
+    <form id="search-form">
+      <input type="text" id="user-input" placeholder="GitHub name" />
+      <button type="submit">Buscar</button>
+    </form>
+    <div id="user-info">
+      <h2>User info:</h2>
+      <p>Name: <span id="user-name"></span></p>
+      <p>Number of repos: <span id="repo-count"></span></p>
+      <img src="" alt="Avatar" id="avatar" />
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
